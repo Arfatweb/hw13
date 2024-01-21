@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul ol{
+    list-style:none;
+}
+
+body{
+    font-family:"arial";
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+}
+
+
+/* cursor start */
+.cursor{
+    width: 40px;
+    height: 40px;
+    border:1px solid blue;
+    border-radius:50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    
+}
+/* cursor and */
+
